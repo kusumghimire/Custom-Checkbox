@@ -68,4 +68,16 @@ label .indicator {
   -webkit-transform: scale(0.9);
           transform: scale(0.9);
 }
+
+label .indicator:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 5px;
+  height: 5px;
+  background: #f00;
+}
 /*# sourceMappingURL=style.css.map */
