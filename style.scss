@@ -39,6 +39,7 @@ label {
     background: linear-gradient(to bottom, #444, #222);
     border-radius: 50%;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5), inset 0px 1px 1px rgba(0, 0, 0, 0.1);
-  transition: 0.5s;
+    transition: 0.5s;
+    transform: scale(0.9);
   }
 }

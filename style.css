@@ -61,5 +61,7 @@ label .indicator {
           box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5), inset 0px 1px 1px rgba(0, 0, 0, 0.1);
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
 }
 /*# sourceMappingURL=style.css.map */
