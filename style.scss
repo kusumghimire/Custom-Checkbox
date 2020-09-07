@@ -18,6 +18,9 @@ label {
   input {
     appearance: none;
     display: none;
+    &:checked ~ .indicator{
+      left: 40px;
+    }
   }
   span {
     position: relative;
