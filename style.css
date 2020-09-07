@@ -70,7 +70,7 @@ label .indicator {
 }
 
 label .indicator:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 50%;
   left: 50%;
@@ -79,5 +79,8 @@ label .indicator:before {
   width: 5px;
   height: 5px;
   background: #f00;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 2px #f00, 0 0 5px #f00, 0 0 10px #f00, 0 0 15px #f00, 0 0 20px #f00, 0 0 25px #f00, 0 0 30px #f00, 0 0 35px #f00, 0 0 40px #f00;
+          box-shadow: 0 0 2px #f00, 0 0 5px #f00, 0 0 10px #f00, 0 0 15px #f00, 0 0 20px #f00, 0 0 25px #f00, 0 0 30px #f00, 0 0 35px #f00, 0 0 40px #f00;
 }
 /*# sourceMappingURL=style.css.map */
